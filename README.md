@@ -297,6 +297,6 @@ indel-web
 - Todos los ejercicios fueron desarrollados en Visual Studio Code.
 - Para los ejercicios en PHP es necesario iniciar Apache y MySQL desde XAMPP.
 - Las consultas a la base de datos utilizan PDO y sentencias preparadas para prevenir ataques de inyección SQL.
-- IMPORTANTE RECALCAR QUE ALGUNOS EJERCICIOS COMO EL 1.2 Y EL 1.3 Y EL 2.2 Y EL 2.3 VAN UNIDOS OSEA, SE ABREN DESDE UNA MISMA URL....
+- IMPORTANTE RECALCAR QUE ALGUNOS EJERCICIOS COMO EL 1.2 Y EL 1.3 Y EL 2.2 Y EL 2.3 (gestorproductosCRUD) VAN UNIDOS OSEA, SE ABREN DESDE UNA MISMA URL....
 
 ---
