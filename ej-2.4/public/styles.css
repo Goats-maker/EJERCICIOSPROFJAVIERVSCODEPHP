@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    background: #1e293b;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #334155;
+}
+
+a {
+    color: #38bdf8;
+}

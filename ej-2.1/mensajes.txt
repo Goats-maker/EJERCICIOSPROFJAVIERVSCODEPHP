@@ -1,0 +1,7 @@
+30/06/2026 09:15:22 | Juan Pérez | juan@gmail.com | Consulta | Hola, quisiera obtener más información sobre sus servicios.
+
+30/06/2026 09:18:40 | María López | maria@hotmail.com | Soporte | Tengo un problema para ingresar a mi cuenta.
+
+30/06/2026 09:22:11 | Carlos Martínez | carlos@gmail.com | Información | Me gustaría conocer los horarios de atención.
+
+30/06/2026 17:10:02 | Ash Ketchum | ash@gmail.com | Consulta | Hola, quiero información del proyecto.

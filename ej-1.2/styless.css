@@ -1,0 +1,373 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* ===========================
+   VARIABLES
+=========================== */
+:root{
+    --color-principal:#2563eb;
+    --color-secundario:#1e293b;
+    --color-fondo:#f4f6f9;
+    --color-tarjeta:#ffffff;
+    --color-texto:#1f2937;
+    --color-hover:#1d4ed8;
+    --color-footer:#0f172a;
+
+    --radio:12px;
+    --sombra:0px 6px 15px rgba(0,0,0,.15);
+    --espacio:20px;
+}
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ===========================
+   BODY
+=========================== */
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:var(--color-fondo);
+
+    color:var(--color-texto);
+
+    line-height:1.6;
+
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+header{
+
+    background:linear-gradient(135deg,#2563eb,#1e40af);
+
+    color:white;
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+/* ===========================
+   TITULOS
+=========================== */
+
+h1{
+
+    margin-bottom:10px;
+
+    font-size:40px;
+
+}
+
+h2{
+
+    color:var(--color-principal);
+
+    margin-bottom:15px;
+
+}
+
+/* ===========================
+   MENU
+=========================== */
+
+nav{
+
+    margin-top:20px;
+
+}
+
+nav ul{
+
+    list-style:none;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#ffd60a;
+
+}
+
+/* ===========================
+   GRID PRINCIPAL
+=========================== */
+
+main{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr;
+
+    gap:30px;
+
+    max-width:1200px;
+
+    margin:40px auto;
+
+    padding:20px;
+
+}
+
+/* ===========================
+   TARJETAS
+=========================== */
+
+section,
+article,
+form{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:var(--radio);
+
+    box-shadow:var(--sombra);
+
+}
+
+/* ===========================
+   ARTICULOS
+=========================== */
+
+article{
+
+    transition:.3s;
+
+    margin-bottom:20px;
+
+}
+
+article:hover{
+
+    transform:translateY(-8px);
+
+}
+
+/* ===========================
+   LISTAS
+=========================== */
+
+ul{
+
+    margin-left:20px;
+
+}
+
+dl{
+
+    margin-top:15px;
+
+}
+
+dt{
+
+    font-weight:bold;
+
+    color:var(--color-principal);
+
+}
+
+dd{
+
+    margin-bottom:10px;
+
+}
+
+/* ===========================
+   FORMULARIO
+=========================== */
+
+label{
+
+    font-weight:bold;
+
+}
+
+input,
+textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:8px;
+
+    margin-bottom:18px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+}
+
+input:focus,
+textarea:focus{
+
+    outline:none;
+
+    border:2px solid var(--color-principal);
+
+}
+
+/* ===========================
+   BOTON
+=========================== */
+
+button{
+
+    background:var(--color-principal);
+
+    color:white;
+
+    padding:12px 20px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:var(--color-hover);
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    background:var(--color-footer);
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+    margin-top:40px;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:1024px){
+
+    main{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    header{
+
+        padding:25px;
+
+    }
+
+    h1{
+
+        font-size:30px;
+
+    }
+
+    nav ul{
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:15px;
+
+    }
+
+    main{
+
+        grid-template-columns:1fr;
+
+        padding:15px;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    h1{
+
+        font-size:26px;
+
+    }
+
+    h2{
+
+        font-size:22px;
+
+    }
+
+    body{
+
+        font-size:15px;
+
+    }
+
+    section,
+    article,
+    form{
+
+        padding:18px;
+
+    }
+
+}
